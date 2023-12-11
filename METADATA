@@ -12,7 +12,7 @@ third_party {
     type: GIT
     value: "https://github.com/Mbed-TLS/mbedtls.git"
   }
-  version: "3.2.1"
-  last_upgrade_date { year: 2022 month: 11 day: 18 }
+  version: "3.3.0"
+  last_upgrade_date { year: 2023 month: 1 day: 9 }
   license_type: NOTICE
 }
