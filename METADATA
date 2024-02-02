@@ -1,18 +1,20 @@
-name: "MbedTLS"
-description:
-    "MbedTLS is a C library that implements cryptographic primitives. Its small "
-    "code footprint makes it suitable for embedded systems."
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/mbedtls
+# For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
 
+name: "MbedTLS"
+description: "MbedTLS is a C library that implements cryptographic primitives. Its small code footprint makes it suitable for embedded systems."
 third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://github.com/Mbed-TLS/mbedtls"
-  }
-  url {
-    type: GIT
-    value: "https://github.com/Mbed-TLS/mbedtls.git"
-  }
-  version: "3.2.1"
-  last_upgrade_date { year: 2022 month: 11 day: 18 }
   license_type: NOTICE
+  last_upgrade_date {
+    year: 2024
+    month: 1
+    day: 26
+  }
+  homepage: "https://github.com/Mbed-TLS/mbedtls"
+  identifier {
+    type: "Git"
+    value: "https://github.com/Mbed-TLS/mbedtls.git"
+    version: "v3.5.2"
+  }
 }
